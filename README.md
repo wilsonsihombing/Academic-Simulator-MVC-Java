@@ -32,6 +32,14 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
 
 - **Controller**: Acts as an intermediary between the model and the view. It handles user input, processes requests, and updates the model accordingly. Controllers contain methods for adding students, courses, enrollments, lecturers, recording grades, and performing other actions.
 
+
+| Kolom 1 | Kolom 2 | Kolom 3 |
+|---------|---------|---------|
+| Baris 1, Kolom 1 | Baris 1, Kolom 2 | Baris 1, Kolom 3 |
+| Baris 2, Kolom 1 | Baris 2, Kolom 2 | Baris 2, Kolom 3 |
+| Baris 3, Kolom 1 | Baris 3, Kolom 2 | Baris 3, Kolom 3 |
+
+
 ## CRUD Operations
 
 The project implements CRUD (Create, Read, Update, Delete) operations for managing academic data:
