@@ -24,6 +24,7 @@ Welcome to the Academic Simulator repository! Academic Simulator is a Java proje
 
 ## MVC Architecture
 
+      ![alt text](https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/image%20MVC.jpg)
 The Academic Simulator project follows the Model-View-Controller (MVC) architectural pattern. Here's how each component is implemented:
 
 - **Model**: Represents the data and business logic of the application. It includes classes for students, courses, enrollments, and lecturers.
