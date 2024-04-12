@@ -39,7 +39,9 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
   </tr>
   <tr>
     <td>Controller</td>
-    <td><a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Controller.java">Controller</a></td>
+    <td>\
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Controller.java">Controller</a>
+    </td>
   </tr>
   <tr>
     <td>Model</td>
@@ -53,8 +55,10 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
     </td>
   </tr>
   <tr>
-    <td>Baris 3, Kolom 1</td>
-    <td>Baris 3, Kolom 2</td>
+    <td>VIew</td>
+    <td>
+      <a href= "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/driver/Driver1.java">Driver</a>
+    </td>
   </tr>
 </table>
 
