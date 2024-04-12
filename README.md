@@ -51,7 +51,8 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
       <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Enrollment.java">Enrollment</a>, 
       <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Lecture.java">Lecture</a>, 
       <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Person.java">Person</a>, 
-      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Student.java">Student</a>
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Student.java">Student</a>,
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/I_AcademicEntity.java">I_AcademicEntity</a>
     </td>
   </tr>
   <tr>
