@@ -38,7 +38,7 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
     <th>Class Name</th>
   </tr>
   <tr>
-    <td><a href="https://www.google.com"></a></td>
+    <td><a href="https://www.google.com">https://www.google.com</a></td>
     <td>Baris 1, Kolom 2</td>
   </tr>
   <tr>
