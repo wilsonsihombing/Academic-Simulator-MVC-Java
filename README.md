@@ -23,23 +23,14 @@ Welcome to the Academic Simulator repository! Academic Simulator is a Java proje
   - Manage lecturer details.
 
 ## MVC Architecture
-<style>
-  .image-container {
-    text-align: center; /* Mengatur teks di dalam kotak gambar agar rata tengah */
-  }
-
-  .image-container img {
-    max-width: 100%; /* Mengatur lebar maksimum gambar agar tidak melebihi lebar kotak */
-    display: inline-block; /* Menjadikan gambar sebagai elemen inline */
-    vertical-align: middle; /* Mengatur posisi vertikal gambar menjadi tengah */
-  }
-</style>
 
 <div class="image-container">
   <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/image%20MVC.jpg">
     <img src="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/image%20MVC.jpg" alt="MVC image">
   </a>
 </div>
+
+
 
  
 The Academic Simulator project follows the Model-View-Controller (MVC) architectural pattern. Here's how each component is implemented:
