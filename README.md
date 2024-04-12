@@ -39,7 +39,7 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
   </tr>
   <tr>
     <td>Controller</td>
-    <td>\
+    <td>
       <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Controller.java">Controller</a>
     </td>
   </tr>
