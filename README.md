@@ -34,6 +34,10 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
 
      <table border="1">
   <tr>
+    <th>Judul</th>
+    <th>Kolom 2</th>
+  </tr>
+  <tr>
     <td>Baris 1, Kolom 1</td>
     <td>Baris 1, Kolom 2</td>
   </tr>
@@ -50,6 +54,7 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
     <td>Baris 4, Kolom 2</td>
   </tr>
 </table>
+
 
 
 
