@@ -91,7 +91,7 @@ public class Controller {
         for(Lecture lecture : lectures){
             if(lecture.getId().equals(id)){
                 cek_lecture = false;
-                 break;
+                break;
             }
         }
 
@@ -131,10 +131,10 @@ public class Controller {
 
         total_sks = CalculateSks(id_std, total_sks);
 
-        double hasil_perhitungan_total = 0.00;
-        hasil_perhitungan_total = CalculateGpa(id_std, total_sks);
+        double calculate_result = 0.00;
+        calculate_result = CalculateGpa(id_std, total_sks);
 
-        double total_seluruh = hasil_perhitungan_total / total_sks;
+        double total_seluruh = calculate_result / total_sks;
         double total_seluruh1 = 0.00;
 
         for(Student std : students){
@@ -180,9 +180,9 @@ public class Controller {
     //calculate gpa
     public double CalculateGpa(String id_std,int total_sks){
         boolean cek = false;
-        double hasil_perhitungan_total = 0.00;
+        double calculate_result = 0.00;
         for(Enrollment enr : enrollments){
-            double hasil_perhitungan = 0.00;
+            double result = 0.00;
             if(enr.getId_student().equals(id_std)){
                 if(enr.getStatus().equals("None" )){
                     if(!cek){
@@ -198,22 +198,22 @@ public class Controller {
                     if(enr.getId_course().equals(crs.getCourse_id()) ){
                         sks_now = crs.getSks();
                         if(grade_now.equals("A")){
-                            hasil_perhitungan = 4.00 * sks_now ;
+                            result = 4.00 * sks_now ;
                         }else if(grade_now.equals("AB")){
-                            hasil_perhitungan = 3.50 * sks_now;
+                            result = 3.50 * sks_now;
                         }else if(grade_now.equals("B")){
-                            hasil_perhitungan = 3 * sks_now;
+                            result = 3 * sks_now;
                         }else if(grade_now.equals("BC")){
-                            hasil_perhitungan = 2.50 * sks_now;
+                            result = 2.50 * sks_now;
                         }else if(grade_now.equals("C")){
-                            hasil_perhitungan = 2.00 * sks_now;
+                            result = 2.00 * sks_now;
                         }else if(grade_now.equals("D")){
-                            hasil_perhitungan = 1.00 * sks_now;
+                            result = 1.00 * sks_now;
                         }else if(grade_now.equals("E")){
-                            hasil_perhitungan = 0.00 * sks_now;
+                            result = 0.00 * sks_now;
                         }
                         
-                        hasil_perhitungan_total = hasil_perhitungan_total + hasil_perhitungan;
+                        calculate_result = calculate_result + result;
                         
                     }
                     
@@ -222,7 +222,7 @@ public class Controller {
             }
         
         }
-        return hasil_perhitungan_total;
+        return calculate_result;
     }
 
     //enrollment remedial
@@ -248,7 +248,7 @@ public class Controller {
                         }
                     }
                     enrols.setStatus(grade);
-                    enrols.setStatusRemedial("Sudah Remedial");
+                    enrols.setStatusRemedial("Has Remedial");
                 }
                 
             }

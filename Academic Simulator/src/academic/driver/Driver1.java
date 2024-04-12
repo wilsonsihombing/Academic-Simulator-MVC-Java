@@ -20,32 +20,40 @@ public class Driver1 {
             }
 
             String[] tokens = str.split("#");
-            if(tokens[0].equals("student-add")){
-                controller.addStudent(tokens);
+            String command = tokens[0];
 
-            }else if(tokens[0].equals("course-add")){
-                controller.addCourse(tokens);
+            switch (command){
+                case "student-add":
+                    controller.addStudent(tokens);
+                    break;
+                case "course-add":
+                    controller.addCourse(tokens);
+                    break;
+                case "enrollment-add":
+                    controller.addEnrollment(tokens);
+                    break;
+                case "lecturer-add":
+                    controller.addLecture(tokens);
+                    break;
+                case "enrollment-grade":
+                    controller.Add_EnrGrade(tokens);
+                    break;
+                case "student-details":
+                    controller.Students_detail(tokens);
+                    break;
+                case "enrollment-remedial":
+                    controller.Enrollment_remedial(tokens);
+                    break;
+                case "course-open":
+                    controller.Course_open(tokens);
+                    break;
+                case "course-history":
+                    controller.Course_history(tokens);
+                    break;
+                default:
+                    System.out.println("Invalid command");
+                    break;
 
-            }else if(tokens[0].equals("enrollment-add")){
-                controller.addEnrollment(tokens);
-                
-            }else if(tokens[0].equals("lecturer-add")){
-                controller.addLecture(tokens);
-                
-            }else if(tokens[0].equals("enrollment-grade")){
-                controller.Add_EnrGrade(tokens);
-                
-            }else if(tokens[0].equals("student-details")){
-                controller.Students_detail(tokens);
-
-            }else if(tokens[0].equals("enrollment-remedial")){
-                controller.Enrollment_remedial(tokens);
-                
-            }else if(tokens[0].equals("course-open")){
-                controller.Course_open(tokens);
-                
-            }else if(tokens[0].equals("course-history")){
-                controller.Course_history(tokens);
             }
         }
 
