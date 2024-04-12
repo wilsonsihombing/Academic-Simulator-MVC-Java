@@ -43,12 +43,13 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
   </tr>
   <tr>
     <td>Model</td>
-    <td><a href = "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Course.java ">Course</td>,
-        <a href = "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/CourseOpening.java ">CourseOpening</td> , 
-        <a href = "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Enrollment.java ">Enrollment</td> , 
-        <a href = "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Lecture.java ">Lecture</td> ,  
-        <a href = "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Person.java">Person</td> , 
-        <a href = "https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Student.java">Student
+    <td>
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Course.java">Course</a>, 
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/CourseOpening.java">CourseOpening</a>, 
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Enrollment.java">Enrollment</a>, 
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Lecture.java">Lecture</a>, 
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Person.java">Person</a>, 
+      <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/src/academic/model/Student.java">Student</a>
     </td>
   </tr>
   <tr>
@@ -56,6 +57,7 @@ The Academic Simulator project follows the Model-View-Controller (MVC) architect
     <td>Baris 3, Kolom 2</td>
   </tr>
 </table>
+
 
 
 
