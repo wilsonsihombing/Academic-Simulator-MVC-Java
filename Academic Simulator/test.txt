@@ -1,5 +1,5 @@
- Test01
- 
+Test01
+Input : 
 lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
 lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
 lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
@@ -15,7 +15,9 @@ enrollment-remedial#12S2102#12S20001#2021/2022#odd#B
 student-details#12S20001
 student-details#12S20002
 ---
-",
+
+Output : 
+
 12S20001|Marcelino Manalu|2020|Information Systems|3.00|4
 12S20002|Yoga Sihombing|2020|Information Systems|4.00|4
 0130058501|Parmonangan Rotua Togatorop|PAT|mona.togatorop@del.ac.id|Information Systems
@@ -30,6 +32,9 @@ student-details#12S20002
 
 
 Test02
+
+Input : 
+
 lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
 course-add#12S1101#Dasar Sistem Informasi#3#D
 course-open#12S1101#2020/2021#odd#IUS
@@ -50,6 +55,9 @@ enrollment-remedial#12S1101#12S20003#2020/2021#odd#AB
 student-details#12S20003
 ---
 ",
+
+Output : 
+
 12S20001|Marcelino Manalu|2020|Information Systems|3.00|3
 12S20002|Yoga Sihombing|2020|Information Systems|3.00|3
 12S20003|Marcel Simanjuntak|2020|Information Systems|3.00|3
@@ -65,6 +73,8 @@ student-details#12S20003
 ",
 
 Test03
+Input : 
+
 lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
 lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
 lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
@@ -100,6 +110,9 @@ student-details#12S20002
 student-details#12S20003
 ---
 ",
+
+Output:
+
 12S20003|Marcel Simanjuntak|2020|Information Systems|3.00|3
 12S20001|Marcelino Manalu|2020|Information Systems|3.00|7
 12S20001|Marcelino Manalu|2020|Information Systems|3.00|7
@@ -124,6 +137,8 @@ student-details#12S20003
 
 
 Test4
+Input:
+
 lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
 lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
 lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
@@ -153,6 +168,9 @@ enrollment-grade#12S1101#12S20003#2020/2021#even#A
 course-history#12S1101
 ---
 ",
+
+Output:
+
 12S1101|Dasar Sistem Informasi|3|D|2020/2021|odd|IUS (iustisia.simbolon@del.ac.id)
 12S1101|12S20001|2020/2021|odd|B
 12S1101|12S20002|2020/2021|odd|B
@@ -183,6 +201,8 @@ course-history#12S1101
 
 
 Test5
+Input: 
+
 lecturer-add#0130058501#Parmonangan Rotua Togatorop#PAT#mona.togatorop@del.ac.id#Information Systems
 lecturer-add#0114129002#Iustisia Natalia Simbolon#IUS#iustisia.simbolon@del.ac.id#Informatics
 lecturer-add#0124108201#Rosni Lumbantoruan#RSL#rosni@del.ac.id#Information Systems
@@ -214,6 +234,9 @@ enrollment-remedial#12S1101#12S20001#2020/2021#even#AB
 course-history#12S1101
 ---
 ",
+
+Output:
+
 12S1101|Dasar Sistem Informasi|3|D|2020/2021|odd|IUS (iustisia.simbolon@del.ac.id)
 12S1101|12S20001|2020/2021|odd|B
 12S1101|12S20002|2020/2021|odd|B
