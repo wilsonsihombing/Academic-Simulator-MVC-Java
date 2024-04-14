@@ -21,6 +21,9 @@ Welcome to the Academic Simulator repository! Academic Simulator is a Java proje
 - **Lecturer Management**:
   - Add new lecturers.
   - Manage lecturer details.
+ 
+  *You can see how the program run in* <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/README.md">here</a>.
+  *For the other example, you can see in*  <a href="https://github.com/wilsonsihombing/Academic-Simulator-MVC-Java/blob/main/Academic%20Simulator/test.txt">here</a>
 
 ## MVC Architecture
 <hr>
